@@ -43,6 +43,7 @@ TARGET_SCREEN_DENSITY := 440
 # Kernel
 BOARD_KERNEL_COMMON := true
 TARGET_KERNEL_CONFIG := platina_defconfig
+TARGET_KERNEL_LLVM_BINUTILS := false
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
